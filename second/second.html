@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web Application assignment 2">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="daniel">
+    <title>web development bootcamp</title>
+    <style>
+        body {
+            
+            font-family: 'Times New Roman', Times, serif;
+            margin: 20px; 
+            line-height: 1.4; 
+        }
+
+        h2 {
+            
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-top: 2em;  
+            margin-bottom: 1em; 
+        }
+
+        p {
+            margin-bottom: 1em; 
+        }
+
+        
+        .content-image {
+            display: block; 
+            margin-bottom: 1em; 
+            
+        }
+
+        .link-image-container a {
+            display: inline-block; 
+            text-decoration: none; 
+        }
+
+        .link-image-container img {
+            border: none; 
+            vertical-align: middle; 
+        }
+
+     
+        .text-links p {
+            margin-bottom: 0.5em; 
+        }
+
+        .text-links a {
+            
+             text-decoration: underline;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Inserting an image</h2>
+
+    <img src="pixel.jpg"
+         alt="image"
+         class="content-image"
+         width="200">
+
+    <h2>Using a image as a link</h2>
+
+    <p>When you click the imae below it will sed you to other page</p>
+
+    <div class="link-image-container">
+        
+        <a href="#">
+            <img src="one.jpg"
+                 alt="Facebook logo "
+                 width="100">
+        </a>
+    </div>
+
+    <h2>Click the links below to open the specified pages</h2>
+
+    <div class="text-links">
+
+        <p><a href="#">First webpage</a></p>
+        <p><a href="https://www.youtube.com" target="_blank">Youtube</a></p>
+        <p><a href="https://www.facebook.com" target="_blank">Facebook</a></p>
+
+    </div>
+
+</body>
+</html>
